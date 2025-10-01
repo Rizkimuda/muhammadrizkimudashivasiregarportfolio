@@ -1,0 +1,70 @@
+body {
+  background-image: url("purp bg.gif");
+  font-family: 'Times New Roman', Times, serif;
+}
+.nav {
+  background: #5509ee;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 15px;
+  width: 100%;
+  padding: 0 12px;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+}
+
+ .nav a.nav-link {
+   color: #000000;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 25px;
+   padding: 6px 14px;
+   margin: 0 14px;
+   line-height: 32px;
+ }
+ .nav a.nav-link:hover {
+   color: blue;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 25px;
+   padding: 6px 14px;
+   margin: 0 14px;
+   line-height: 32px;
+   text-decoration: underline;
+ }
+
+.container {
+  display: flex; 
+  align-items: top; 
+  gap: 20px;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+p {
+  font-size: 30px;
+}
+b {
+  font-size: 40px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+td,th {
+  border: 1px solid #000000;
+  text-align: left;
+  padding: 8px;
+}
+
+tr {
+  background-color: #dddddd;
+}
+
